@@ -1,0 +1,81 @@
+Timestamp,Backend,Model,Temp,Iterasi,Waktu (s),Respons,Status
+2026-03-09 12:39:21,Ollama,qwen3-vl:4b,0.1,1,6.30,,Success
+2026-03-09 12:39:26,Ollama,qwen3-vl:4b,0.1,2,5.12,,Success
+2026-03-09 12:39:31,Ollama,qwen3-vl:4b,0.1,3,5.23,,Success
+2026-03-09 12:39:36,Ollama,qwen3-vl:4b,0.1,4,5.27,,Success
+2026-03-09 12:39:42,Ollama,qwen3-vl:4b,0.1,5,5.31,,Success
+2026-03-09 12:39:47,Ollama,qwen3-vl:4b,0.1,6,5.35,,Success
+2026-03-09 12:39:52,Ollama,qwen3-vl:4b,0.1,7,5.36,,Success
+2026-03-09 12:39:58,Ollama,qwen3-vl:4b,0.1,8,5.40,,Success
+2026-03-09 12:40:03,Ollama,qwen3-vl:4b,0.1,9,5.41,"1. T-shirt lengan pendek berwarna abu-abu dengan desain grafis ""TOKYO 1821"" dan tulisan Jepang di bagian dada.",Success
+2026-03-09 12:40:09,Ollama,qwen3-vl:4b,0.1,10,5.41,,Success
+2026-03-09 12:40:14,Ollama,qwen3-vl:4b,0.1,11,5.39,,Success
+2026-03-09 12:40:20,Ollama,qwen3-vl:4b,0.1,12,5.45,,Success
+2026-03-09 12:40:25,Ollama,qwen3-vl:4b,0.1,13,5.36,,Success
+2026-03-09 12:40:30,Ollama,qwen3-vl:4b,0.1,14,5.36,,Success
+2026-03-09 12:40:36,Ollama,qwen3-vl:4b,0.1,15,5.37,,Success
+2026-03-09 12:40:41,Ollama,qwen3-vl:4b,0.1,16,5.40,,Success
+2026-03-09 12:40:46,Ollama,qwen3-vl:4b,0.1,17,5.43,,Success
+2026-03-09 12:40:52,Ollama,qwen3-vl:4b,0.1,18,5.43,,Success
+2026-03-09 12:40:57,Ollama,qwen3-vl:4b,0.1,19,5.43,"1. Pakaian: Kaos lengan pendek berwarna abu-abu dengan desain grafis bertuliskan ""TOKYO 1821"" dan teks Jepang ""富の都市"" di bagian dada, dilengkapi garis-garis horizontal di bawahnya.   2. Tidak cocok karena kaos lengan pendek terlalu kasual untuk acara wawancara korporat yang membutuhkan penampilan formal (seperti kemeja lengan panjang atau setelan jas).   3. Ganti kaos dengan kemeja lengan panjang berwarna netral (hitam, abu-abu, atau biru) dan",Success
+2026-03-09 12:41:03,Ollama,qwen3-vl:4b,0.1,20,5.47,,Success
+2026-03-09 12:41:08,Ollama,qwen3-vl:4b,0.4,1,5.45,,Success
+2026-03-09 12:41:14,Ollama,qwen3-vl:4b,0.4,2,5.44,,Success
+2026-03-09 12:41:19,Ollama,qwen3-vl:4b,0.4,3,5.44,,Success
+2026-03-09 12:41:25,Ollama,qwen3-vl:4b,0.4,4,5.45,,Success
+2026-03-09 12:41:30,Ollama,qwen3-vl:4b,0.4,5,5.40,,Success
+2026-03-09 12:41:35,Ollama,qwen3-vl:4b,0.4,6,5.40,,Success
+2026-03-09 12:41:41,Ollama,qwen3-vl:4b,0.4,7,5.42,,Success
+2026-03-09 12:41:46,Ollama,qwen3-vl:4b,0.4,8,5.42,,Success
+2026-03-09 12:41:52,Ollama,qwen3-vl:4b,0.4,9,5.45,,Success
+2026-03-09 12:41:57,Ollama,qwen3-vl:4b,0.4,10,5.41,,Success
+2026-03-09 12:42:02,Ollama,qwen3-vl:4b,0.4,11,5.39,,Success
+2026-03-09 12:42:08,Ollama,qwen3-vl:4b,0.4,12,5.42,,Success
+2026-03-09 12:42:13,Ollama,qwen3-vl:4b,0.4,13,5.45,,Success
+2026-03-09 12:42:19,Ollama,qwen3-vl:4b,0.4,14,5.46,,Success
+2026-03-09 12:42:24,Ollama,qwen3-vl:4b,0.4,15,5.45,,Success
+2026-03-09 12:42:30,Ollama,qwen3-vl:4b,0.4,16,5.38,,Success
+2026-03-09 12:42:35,Ollama,qwen3-vl:4b,0.4,17,5.38,,Success
+2026-03-09 12:42:40,Ollama,qwen3-vl:4b,0.4,18,5.36,,Success
+2026-03-09 12:42:46,Ollama,qwen3-vl:4b,0.4,19,5.37,,Success
+2026-03-09 12:42:51,Ollama,qwen3-vl:4b,0.4,20,5.37,,Success
+2026-03-09 12:42:56,Ollama,qwen3-vl:4b,0.7,1,5.38,,Success
+2026-03-09 12:43:02,Ollama,qwen3-vl:4b,0.7,2,5.39,,Success
+2026-03-09 12:43:07,Ollama,qwen3-vl:4b,0.7,3,5.55,,Success
+2026-03-09 12:43:13,Ollama,qwen3-vl:4b,0.7,4,5.60,,Success
+2026-03-09 12:43:19,Ollama,qwen3-vl:4b,0.7,5,5.52,,Success
+2026-03-09 12:43:24,Ollama,qwen3-vl:4b,0.7,6,5.54,,Success
+2026-03-09 12:43:30,Ollama,qwen3-vl:4b,0.7,7,5.48,,Success
+2026-03-09 12:43:34,Ollama,qwen3-vl:4b,0.7,8,4.89,"1. Pakaian: Kaos lengan pendek berwarna abu-abu terang dengan desain raglan, motif garis horizontal di bagian bawah, dan tulisan ""TOKYO 1821"" serta teks Jepang di bagian dada.   2. Tidak cocok. Kaos casual seperti ini terlalu santai untuk wawancara kerja di kantor korporat, yang membutuhkan penampilan formal (misalnya kemeja lengan panjang, blazer, atau setelan jas).   3. Ganti kaos dengan kemeja lengan panjang putih/abu-abu muda dan tambahkan blazer hitam untuk penampilan profesional.",Success
+2026-03-09 12:43:40,Ollama,qwen3-vl:4b,0.7,9,5.47,,Success
+2026-03-09 12:43:45,Ollama,qwen3-vl:4b,0.7,10,5.09,"1. T-shirt berwarna abu-abu dengan desain raglan, terdapat tulisan ""TOKYO 1821"" dan ""富の都市"" di bagian dada.   2. Tidak cocok karena pakaian kasual tidak sesuai dengan standar penampilan kantor korporat yang membutuhkan kesan profesional.   3. Ganti dengan setelan formal (kemeja putih dan jas) untuk meningkatkan kesan profesional.",Success
+2026-03-09 12:43:50,Ollama,qwen3-vl:4b,0.7,11,5.41,,Success
+2026-03-09 12:43:56,Ollama,qwen3-vl:4b,0.7,12,5.41,,Success
+2026-03-09 12:44:01,Ollama,qwen3-vl:4b,0.7,13,5.42,"1. Pakaian: Kaos lengan pendek warna abu-abu dengan desain grafis berbentuk kotak bertuliskan ""TOKYO 1821"" dan teks Jepang ""富の都市"", dilengkapi garis-garis horizontal di bagian bawah.   2. Tidak cocok. Kaos casual dengan cetakan grafis terlalu informal untuk wawancara korporat",Success
+2026-03-09 12:44:07,Ollama,qwen3-vl:4b,0.7,14,5.43,1,Success
+2026-03-09 12:44:12,Ollama,qwen3-vl:4b,0.7,15,5.46,,Success
+2026-03-09 12:44:18,Ollama,qwen3-vl:4b,0.7,16,5.49,,Success
+2026-03-09 12:44:23,Ollama,qwen3-vl:4b,0.7,17,5.43,,Success
+2026-03-09 12:44:28,Ollama,qwen3-vl:4b,0.7,18,5.45,1. Kaos lengan pendek warna abu-abu muda dengan,Success
+2026-03-09 12:44:34,Ollama,qwen3-vl:4b,0.7,19,5.50,,Success
+2026-03-09 12:44:38,Ollama,qwen3-vl:4b,0.7,20,3.75,"1. Pakaian: Kaos lengan pendek berwarna abu-abu dengan desain grafis berupa kotak bertuliskan ""TOKYO 1821"" dan teks Jepang ""富の都市"" di bagian dada, dilengkapi garis-garis horizontal di bawahnya.   2. Tidak cocok. Kaos lengan pendek terlalu kasual untuk wawancara kerja di kantor korporat yang membutuhkan penampilan profesional dan formal.   3. Ganti kaos dengan kemeja lengan panjang warna netral (seperti abu-abu, biru navy, atau hitam) yang sesuai standar busana kantor.",Success
+2026-03-09 12:44:43,Ollama,qwen3-vl:4b,1.0,1,5.41,,Success
+2026-03-09 12:44:49,Ollama,qwen3-vl:4b,1.0,2,5.37,,Success
+2026-03-09 12:44:54,Ollama,qwen3-vl:4b,1.0,3,5.30,"1. Pakaian: Kemeja lengan pendek berwarna abu-abu muda dengan desain grafis ""TOKYO 1821"" dan teks Jepang ""富の都市"" di bagian dada, ditambah strip horizontal di bawahnya.   2. Tidak cocok. Pakaian kasual seperti kemeja lengan pendek terlalu santai untuk wawancara korporat, yang membutuhkan penampilan profesional (misal: kemeja lengan panjang, kemeja lengan pendek dengan desain formal, atau outfit serius seperti jas).   3. Gantikan dengan kemeja lengan panjang warna netral (abu-abu, biru tua) dan tambahkan jaket atau blazer untuk kesan profesional.",Success
+2026-03-09 12:44:59,Ollama,qwen3-vl:4b,1.0,4,5.38,,Success
+2026-03-09 12:45:05,Ollama,qwen3-vl:4b,1.0,5,5.42,,Success
+2026-03-09 12:45:10,Ollama,qwen3-vl:4b,1.0,6,5.49,,Success
+2026-03-09 12:45:16,Ollama,qwen3-vl:4b,1.0,7,5.68,,Success
+2026-03-09 12:45:21,Ollama,qwen3-vl:4b,1.0,8,5.69,,Success
+2026-03-09 12:45:27,Ollama,qwen3-vl:4b,1.0,9,5.71,"1. Grey crew-neck T-shirt with ""TOKYO 1821"" text and horizontal stripes (light grey base with darker grey accents).   2. Tidak cocok; pakaian terlalu kasual untuk wawancara kerja di kantor korporat, kurang formal dan tidak sesuai standar penampilan profesional.   3. Ganti dengan kemeja l",Success
+2026-03-09 12:45:33,Ollama,qwen3-vl:4b,1.0,10,5.55,1. Pakaian: Kemeja lengan pendek warna abu-abu muda dengan desain grafis di dada,Success
+2026-03-09 12:45:38,Ollama,qwen3-vl:4b,1.0,11,5.45,,Success
+2026-03-09 12:45:42,Ollama,qwen3-vl:4b,1.0,12,3.83,"1. Pakaian: Kaos lengan pendek berwarna abu-abu dengan desain grafis ""TOKYO 1821"" dan teks Jepang ""富の都市"" di bagian dada.   2. Tidak cocok, karena kaos lengan pendek terlalu kasual untuk wawancara kerja di kantor korporat yang membutuhkan penampilan formal.   3. Gunakan kemeja lengan panjang berwarna netral (misal: abu-abu, hitam) dengan dasi atau blazer untuk penampilan profesional.",Success
+2026-03-09 12:45:46,Ollama,qwen3-vl:4b,1.0,13,4.27,"1. Pakaian: Kaos lengan pendek berwarna abu-abu dengan tulisan ""TOKYO 1821"" dan ""富の都市"" di bagian dada, model raglan dengan desain garis horizontal pada bagian bawah.   2. Tidak cocok, karena pakaian kasual (kaos) tidak sesuai dengan standar penampilan korporat yang membutuhkan busana formal (seperti kemeja lengan panjang atau setelan bisnis).   3. Ganti dengan setelan bisnis formal (kemeja lengan panjang + celana hitam) atau pakaian kerja yang sesuai SOP perusahaan.",Success
+2026-03-09 12:45:52,Ollama,qwen3-vl:4b,1.0,14,5.43,,Success
+2026-03-09 12:45:55,Ollama,qwen3-vl:4b,1.0,15,3.54,"1. T-shirt warna abu-abu terang dengan tulisan ""TOKYO 1821 富の都市"" dan motif garis horizontal.   2. Tidak cocok karena pakaian kasual (T-shirt) tidak sesuai dengan standar penampilan kantor korporat yang membutuhkan attire formal.   3. Ganti dengan kemeja lengan panjang warna netral (seperti abu-abu atau biru navy) dan celana panjang.",Success
+2026-03-09 12:46:01,Ollama,qwen3-vl:4b,1.0,16,5.49,,Success
+2026-03-09 12:46:06,Ollama,qwen3-vl:4b,1.0,17,5.46,"1. DESKRIPSI: Kaos lengan pendek kerah crew neck berwarna abu-abu dengan aksen putih, terdapat tulisan ""TOKYO 1821"" dan teks Jepang ""富の都市"" di bagian dada, serta garis horizontal di bawah tulisan.   2. ANALISIS: Tidak cocok. Pakaian casual seperti kaos tidak sesuai dengan standar dress code kantor korporat yang membutuhkan penampilan formal (seperti kemeja lengan panjang dan celana panjang).   3. SARAN: Ganti dengan setelan kemeja lengan panjang warna netral (putih/abu-abu) dan celana panjang hitam/abu-abu untuk penampilan profesional.",Success
+2026-03-09 12:46:12,Ollama,qwen3-vl:4b,1.0,18,5.42,,Success
+2026-03-09 12:46:17,Ollama,qwen3-vl:4b,1.0,19,5.40,"1. Pakaian: Kaos lengan pendek kerah bundar warna abu-abu terang dengan desain tulisan ""TOKYO 1821"" dan ""富の都市"" (Ritual Kiyō) di bagian dada, dilengkapi pola garis horizontal.   2. Analisis: Tidak cocok. Pakaian kasual (kaos) tidak sesuai untuk wawancara kerja di kantor korporat yang membutuhkan penampilan formal dan profesional.   3. Saran: Ganti dengan kemeja lengan panjang warna netral (putih/abu-abu) dan celana panjang, tambahkan blazer atau dasi untuk kesan profesional.",Success
+2026-03-09 12:46:23,Ollama,qwen3-vl:4b,1.0,20,5.49,,Success

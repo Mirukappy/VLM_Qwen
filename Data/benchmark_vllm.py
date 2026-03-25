@@ -10,7 +10,7 @@ from datetime import datetime
 
 # --- KONFIGURASI BENCHMARK vLLM ---
 # Nama model harus SAMA PERSIS dengan yang dijalankan di command terminal vLLM
-CURRENT_MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct-AWQ"
+CURRENT_MODEL_NAME = "Qwen/Qwen3-VL-2B-Instruct"
 
 TEMPERATURES = [0.1, 0.4, 0.7, 1.0] # 4 Titik Temperatur
 ITERATIONS = 20 # 20 iterasi per suhu (Total 80 percobaan)
@@ -29,7 +29,7 @@ Jawab singkat dan ikuti format angka 1, 2, 3 di atas.
 """
 
 API_URL = "http://localhost:8000/v1/chat/completions"
-CSV_FILE = "benchmark_vllm_part2.csv" # Nama file dibedakan agar rapi
+CSV_FILE = "benchmark_vllm_qwen3_2b.csv" # Nama file dibedakan agar rapi
 
 def encode_image(image_path):
     """Karena max_model_len sekarang 4096, kita bisa pakai gambar lebih besar (896px)"""

@@ -5,10 +5,10 @@ import os
 from datetime import datetime
 
 # --- KONFIGURASI BENCHMARK ---
-MODELS = ['qwen3-vl:2b', 'qwen3-vl:4b']
+MODELS = ['qwen2.5vl:3b', 'qwen2.5vl:7b', 'qwen3vl:2b', 'qwen3vl:4b']
 TEMPERATURES = [0.1, 0.4, 0.7, 1.0] # 4 Titik Temperatur
-ITERATIONS = 20 # 20 percobaan per suhu (Total 80 per model)
-TEST_IMAGE = "test_image.jpg" 
+ITERATIONS = 3 # 3 percobaan per suhu (Total 12 per model)
+TEST_IMAGE = "Data/Shirt_0.jpg" 
 OCCASION = "wawancara kerja di kantor korporat"
 
 PROMPT = f"""Kamu adalah Fashion Stylist profesional. Lihat foto orang ini. 
@@ -22,7 +22,7 @@ TUGASMU:
 Jawab singkat dan ikuti format angka 1, 2, 3 di atas.
 """
 
-CSV_FILE = "benchmark_ollama_part3.csv"
+CSV_FILE = "benchmark_ollama_shirt_0.csv"
 
 def run_benchmark():
     if not os.path.exists(TEST_IMAGE):
