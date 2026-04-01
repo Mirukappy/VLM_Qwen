@@ -1,0 +1,7 @@
+Backend,Nama_Model,Rata_Skor_MOS,Rata_Waktu_Detik,Jumlah_Data
+Ollama,qwen2.5vl:3b,1.0,32.35,108
+Ollama,qwen2.5vl:7b,1.0,44.51,108
+Ollama,qwen3-vl:2b,1.0,2.91,0
+Ollama,qwen3-vl:4b,1.0,5.2,38
+vLLM,Qwen/Qwen2.5-VL-3B-Instruct-AWQ,1.0,1.84,108
+vLLM,Qwen/Qwen3-VL-2B-Instruct,1.0,1.89,108

@@ -11,23 +11,20 @@ KONTEKS_ACARA = "wawancara kerja di kantor korporat"
 
 # ⚠️ PENTING: Ganti deskripsi ini sesuai dengan baju asli yang ada di foto Anda!
 KUNCI_JAWABAN = {
-    "Shirt_0": "Pria memakai kaos oblong warna ungu tanpa aksesoris.",
-
-    "Shirt_1": "Pria memakai kaos oblong warna ungu dengan menggunakan kacamata.",
-
-    "Shirt_2": "Pria memakai kaos oblong warna ungu dengan menggunakan topi putih.",
-
-    "TShirt_0": "Pria memakai kaos kerah warna abu-abu tanpa aksesoris.",
-
-    "TShirt_1": "Pria memakai kaos kerah warna abu-abu dengan menggunakan kacamata.",
-
-    "TShirt_2": "Pria memakai kaos kerah warna abu-abu dengan menggunakan topi putih.",
-
-    "Jacket_0": "Pria memakai jaket warna hitam tanpa aksesoris.",
-
-    "Jacket_1": "Pria memakai jaket warna hitam dengan menggunakan kacamata.",
-
-    "Jacket_2": "Pria memakai jaket warna hitam dengan menggunakan topi putih."
+    # Kategori Kaos Oblong Ungu
+    "Shirt_0": "Pria memakai kaos oblong warna ungu polos (tidak memakai kacamata maupun topi).",
+    "Shirt_1": "Pria memakai kaos oblong warna ungu dan memakai kacamata.",
+    "Shirt_2": "Pria memakai kaos oblong warna ungu dan memakai topi warna putih.",
+    
+    # Kategori Kaos Kerah Abu-abu
+    "TShirt_0": "Pria memakai kaos kerah (polo shirt) warna abu-abu (tidak memakai kacamata maupun topi).",
+    "TShirt_1": "Pria memakai kaos kerah (polo shirt) warna abu-abu dan memakai kacamata.",
+    "TShirt_2": "Pria memakai kaos kerah (polo shirt) warna abu-abu dan memakai topi warna putih.",
+    
+    # Kategori Jaket Hitam
+    "Jacket_0": "Pria memakai jaket warna hitam (tidak memakai kacamata maupun topi).",
+    "Jacket_1": "Pria memakai jaket warna hitam dan memakai kacamata.",
+    "Jacket_2": "Pria memakai jaket warna hitam dan memakai topi warna putih."
 }
 
 def ekstrak_kategori_dari_nama_file(nama_file):
@@ -38,7 +35,9 @@ def ekstrak_kategori_dari_nama_file(nama_file):
     return None
 
 def ambil_skor_juri(teks_jawaban, fakta_visual):
+    # Cek apakah teks jawaban dari CSV kosong/error
     if pd.isna(teks_jawaban) or len(str(teks_jawaban)) < 5 or "Error" in str(teks_jawaban):
+        print(f"   ⚠️ SKIP: Jawaban di CSV kosong atau berisi error -> {teks_jawaban}")
         return 1
     
     prompt = f"""Tugas: Berikan skor 1-5 untuk jawaban AI Fashion Assistant.
@@ -62,9 +61,19 @@ Balas HANYA dengan SATU ANGKA (1, 2, 3, 4, atau 5)."""
             options={'temperature': 0.0, 'num_predict': 5},
             messages=[{'role': 'user', 'content': prompt}]
         )
-        skor = re.findall(r'[1-5]', response['message']['content'])
-        return int(skor[0]) if skor else 1
-    except:
+        
+        raw_output = response['message']['content']
+        skor = re.findall(r'[1-5]', raw_output)
+        
+        if skor:
+            return int(skor[0])
+        else:
+            print(f"   ⚠️ JURI NGAWUR: Juri tidak mengeluarkan angka 1-5. Output Juri: '{raw_output}'")
+            return 1
+            
+    except Exception as e:
+        # INI YANG PALING PENTING: Menampilkan error koneksi ke Ollama
+        print(f"   ❌ ERROR OLLAMA JURI: {str(e)}")
         return 1
 
 def proses_master_evaluasi():
@@ -113,7 +122,7 @@ def proses_master_evaluasi():
     print("\nMenggabungkan semua data...")
     df_total = pd.concat(list_df_hasil, ignore_index=True)
     
-    file_database_akhir = "DATABASE_EVALUASI_FINAL.csv"
+    file_database_akhir = "DATABASE_EVALUASI_FINAL_3.csv"
     df_total.to_csv(file_database_akhir, index=False)
 
     print("\n" + "="*60)
